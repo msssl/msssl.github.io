@@ -96,8 +96,7 @@ strong {
 .hero-image img {
   width: 72%;
   max-width: 160px;
-  aspect-ratio: 1;
-  object-fit: cover;
+  height: auto;
 }
 
 .name {
@@ -292,8 +291,7 @@ footer p {
     width: 32%;
     min-width: 82px;
     max-width: 118px;
-    aspect-ratio: 1;
-    object-fit: cover;
+    height: auto;
     margin: 10px auto 14px;
   }
 
