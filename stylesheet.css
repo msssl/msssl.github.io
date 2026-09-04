@@ -1,0 +1,366 @@
+/* Adapted from Jon Barron's public academic homepage template. */
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url("https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url("https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #fff;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a,
+li {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+body {
+  margin: 0;
+  color: #111;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+}
+
+strong {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: inherit;
+}
+
+.page-table,
+.hero-table,
+.section-heading-table,
+.entry-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-table {
+  max-width: 820px;
+}
+
+.hero-table {
+  margin-bottom: -34px;
+}
+
+.hero-copy {
+  width: 63%;
+  padding: 2.5%;
+  vertical-align: middle;
+}
+
+.hero-image {
+  width: 30%;
+  max-width: 30%;
+  padding: 2.5%;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 72%;
+  max-width: 160px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.name {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.profile-links {
+  text-align: center;
+}
+
+.mobile-avatar {
+  display: none;
+}
+
+.section-heading-table {
+  margin-bottom: -16px;
+}
+
+.section-heading-table td {
+  width: 100%;
+  padding: 18px 20px;
+  vertical-align: middle;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.entry-image {
+  width: 30%;
+  max-width: 30%;
+  padding: 16px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.entry-content {
+  width: 70%;
+  padding: 12px 20px 12px 0;
+  vertical-align: middle;
+}
+
+.education-logo img {
+  width: 45%;
+  max-width: 105px;
+  height: auto;
+}
+
+.paper-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.entry-date {
+  float: right;
+  color: #666;
+  font-size: 12px;
+}
+
+.entry-content ul {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+
+.entry-content li,
+.news-list li {
+  margin: 5px 0;
+}
+
+.divider-row td {
+  padding: 0 20px;
+}
+
+.divider-row div {
+  border-top: 1px solid #e5e7eb;
+}
+
+.industrial-heading {
+  margin-top: 4px;
+  margin-bottom: -12px;
+}
+
+.industrial-table {
+  margin-bottom: 2px;
+}
+
+.company-logo {
+  width: 68%;
+  max-width: 132px;
+  height: auto;
+}
+
+.publication-heading {
+  margin-top: 8px;
+  margin-bottom: -8px;
+}
+
+.legend {
+  margin: 3px 0 0;
+  color: #555;
+  font-size: 12px;
+}
+
+.publication-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.publication-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: 155px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.publication-content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.publication-content p {
+  margin: 5px 0 0;
+}
+
+.publication-table tr + tr .publication-image,
+.publication-table tr + tr .publication-content {
+  border-top: 1px solid #f0f0f0;
+}
+
+.publication-image img.wide-figure {
+  max-height: 128px;
+}
+
+.venue {
+  color: #d7191c;
+}
+
+footer {
+  padding: 26px 20px 38px;
+  color: #666;
+  text-align: center;
+}
+
+footer p {
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .hero-table {
+    margin-bottom: 2px;
+  }
+
+  .hero-copy {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 14px 14px 0;
+  }
+
+  .name {
+    padding-top: 8px;
+    font-size: 24px;
+  }
+
+  .mobile-avatar {
+    display: block;
+    width: 32%;
+    min-width: 82px;
+    max-width: 118px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin: 10px auto 14px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .section-heading-table {
+    margin-bottom: 0;
+  }
+
+  .section-heading-table td {
+    padding: 16px 14px 8px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .entry-image,
+  .entry-content {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .entry-image {
+    padding: 10px 20px 0;
+  }
+
+  .entry-content {
+    padding: 8px 20px 14px;
+  }
+
+  .education-logo img {
+    width: 24%;
+    max-width: 92px;
+  }
+
+  .company-logo {
+    width: 36%;
+    max-width: 132px;
+    margin: 4px auto;
+  }
+
+  .entry-date {
+    display: block;
+    float: none;
+    margin-top: 2px;
+  }
+
+  .publication-image {
+    padding: 10px 20px 5px;
+  }
+
+  .publication-image img {
+    width: 96vw;
+    max-width: 430px;
+    max-height: 230px;
+  }
+
+  .publication-image img.wide-figure {
+    max-height: 210px;
+  }
+
+  .publication-content {
+    padding: 4px 20px 18px;
+  }
+}

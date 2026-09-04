@@ -1,101 +1,276 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Research project pages by Shilin Ma." />
-    <title>Shilin Ma · Research Projects</title>
-    <style>
-      :root {
-        color-scheme: light;
-        font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        color: #172033;
-        background: #f6f8fb;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Shilin Ma">
+  <meta name="description" content="Shilin Ma is a PhD student at Tsinghua University researching physical agents and long-horizon embodied tasks.">
+  <link rel="canonical" href="https://msssl.github.io/">
+  <link rel="icon" type="image/jpeg" href="images/shilin-ma.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://msssl.github.io/">
+  <meta property="og:title" content="Shilin Ma">
+  <meta property="og:description" content="Physical agents, long-horizon embodied tasks, and efficient multimodal learning at Tsinghua University.">
+  <meta property="og:image" content="https://msssl.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shilin Ma — Computer Vision, Embodied AI, and Multimodal Learning">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shilin Ma">
+  <meta name="twitter:description" content="Physical agents, long-horizon embodied tasks, and efficient multimodal learning at Tsinghua University.">
+  <meta name="twitter:image" content="https://msssl.github.io/assets/og.png">
+  <title>Shilin Ma</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Shilin Ma",
+      "url": "https://msssl.github.io/",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "Tsinghua University"},
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "Tsinghua University"},
+      "sameAs": [
+        "https://github.com/msssl",
+        "https://openreview.net/profile?id=~Shilin_Ma2"
+      ]
+    }
+  </script>
+</head>
 
-      * { box-sizing: border-box; }
+<body>
+  <table class="page-table">
+    <tbody>
+      <tr>
+        <td>
+          <table class="hero-table">
+            <tbody>
+              <tr>
+                <td class="hero-copy">
+                  <p class="name">Shilin Ma</p>
+                  <img class="mobile-avatar" src="images/shilin-ma.jpg" alt="Shilin Ma profile image">
+                  <p>
+                    Hi! I am a PhD student at
+                    <a href="https://www.sigs.tsinghua.edu.cn/en/">Tsinghua University</a>,
+                    advised by <a href="https://andytang15.github.io/">Prof. Yansong Tang</a>.
+                  </p>
+                  <p>
+                    Previously, I received my B.Eng. degree in
+                    <em>Electronic Engineering</em> from Tsinghua University in 2025.
+                  </p>
+                  <p>
+                    My research focuses on <strong>physical agents</strong> and
+                    <strong>long-horizon embodied tasks</strong>, with an emphasis on multimodal
+                    perception, planning, and closed-loop control.
+                  </p>
+                  <p class="profile-links">
+                    <a href="https://github.com/msssl">GitHub</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+                    <a href="https://openreview.net/profile?id=~Shilin_Ma2">OpenReview</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+                    <a href="https://msssl.github.io/">Home Page</a>
+                  </p>
+                </td>
+                <td class="hero-image">
+                  <img src="images/shilin-ma.jpg" alt="Shilin Ma profile image">
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: grid;
-        place-items: center;
-        padding: 32px 20px;
-      }
+          <table class="section-heading-table">
+            <tbody><tr><td><h2>Education</h2></td></tr></tbody>
+          </table>
 
-      main {
-        width: min(720px, 100%);
-        padding: clamp(32px, 6vw, 58px);
-        background: #fff;
-        border: 1px solid #e2e7ef;
-        border-radius: 18px;
-        box-shadow: 0 18px 55px rgba(27, 40, 68, 0.08);
-      }
+          <table class="entry-table education-table">
+            <tbody>
+              <tr>
+                <td class="entry-image education-logo">
+                  <img src="images/tsinghua-logo.svg" alt="Tsinghua University logo">
+                </td>
+                <td class="entry-content">
+                  <span class="paper-title">Tsinghua University</span>
+                  <span class="entry-date">2025.09 - Present</span>
+                  <ul>
+                    <li>PhD student, Shenzhen International Graduate School</li>
+                    <li>Advisor: Prof. Yansong Tang</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="divider-row"><td colspan="2"><div></div></td></tr>
+              <tr>
+                <td class="entry-image education-logo">
+                  <img src="images/tsinghua-logo.svg" alt="Tsinghua University logo">
+                </td>
+                <td class="entry-content">
+                  <span class="paper-title">Tsinghua University</span>
+                  <span class="entry-date">2021.09 - 2025.06</span>
+                  <ul>
+                    <li>B.Eng. in Electronic Engineering</li>
+                    <li>Department of Electronic Engineering</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-      .eyebrow {
-        margin: 0 0 14px;
-        color: #6b7280;
-        font-size: 0.76rem;
-        font-weight: 700;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-      }
+          <table class="section-heading-table industrial-heading">
+            <tbody><tr><td><h2>Industrial Experience</h2></td></tr></tbody>
+          </table>
 
-      h1 {
-        margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(2.25rem, 7vw, 4rem);
-        line-height: 1.05;
-        letter-spacing: -0.035em;
-      }
+          <table class="entry-table industrial-table">
+            <tbody>
+              <tr>
+                <td class="entry-image">
+                  <a href="https://roboticsx.tencent.com/" aria-label="Tencent Robotics X">
+                    <img class="company-logo" src="images/tencent-logo.png" alt="Tencent logo">
+                  </a>
+                </td>
+                <td class="entry-content">
+                  <a href="https://roboticsx.tencent.com/"><span class="paper-title">Tencent Robotics X</span></a>
+                  <span class="entry-date">2026.05 - Present</span>
+                  <ul>
+                    <li>Research Intern</li>
+                    <li>Research on embodied agents for long-horizon tasks</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-      .subtitle {
-        margin: 20px 0 30px;
-        color: #596273;
-        font-size: clamp(1rem, 2.5vw, 1.14rem);
-        line-height: 1.7;
-      }
+          <table class="section-heading-table publication-heading">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Recent Publications</h2>
+                  <p class="legend">(* Equal contribution, <sup>&dagger;</sup> Corresponding author)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
+          <table class="entry-table publication-table">
+            <tbody>
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="./SAFE-Pruner/"><img class="wide-figure" src="images/safe-pruner.png" alt="Figure 4: the overall SAFE-Pruner framework"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="./SAFE-Pruner/"><span class="paper-title">SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation</span></a>
+                  <br>
+                  <strong>Shilin Ma</strong>, Chubin Zhang, Changyuan Wang, Yuji Wang, Yue Wu,
+                  Zixuan Wang, Jingqi Tian, Zheng Zhu, Yansong Tang<sup>&dagger;</sup>
+                  <br>
+                  <em>European Conference on Computer Vision (<strong class="venue">ECCV</strong>), 2026</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2605.29662">[arXiv]</a>
+                  <a href="https://arxiv.org/pdf/2605.29662">[Paper]</a>
+                  <a href="https://github.com/msssl/SAFE-Pruner">[Code]</a>
+                  <a href="./SAFE-Pruner/">[Project Page]</a>
+                  <p>We propose a training-free, future-aware visual token pruning framework for efficient VLA manipulation.</p>
+                </td>
+              </tr>
 
-      a {
-        display: inline-flex;
-        align-items: center;
-        min-height: 44px;
-        padding: 0 18px;
-        border: 1px solid #cfd6e1;
-        border-radius: 999px;
-        color: #27354d;
-        font-weight: 650;
-        text-decoration: none;
-        transition: transform 150ms ease, border-color 150ms ease;
-      }
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="https://eternalevan.github.io/VARestorer-proj/"><img class="wide-figure" src="images/varestorer.png" alt="VARestorer pipeline"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="https://arxiv.org/abs/2604.21450"><span class="paper-title">VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution</span></a>
+                  <br>
+                  Yixuan Zhu*, <strong>Shilin Ma*</strong>, Haolin Wang, Ao Li, Yanzhe Jing,
+                  Yansong Tang<sup>&dagger;</sup>, Lei Chen, Jiwen Lu, Jie Zhou
+                  <br>
+                  <em>International Conference on Learning Representations (<strong class="venue">ICLR</strong>), 2026</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2604.21450">[arXiv]</a>
+                  <a href="https://openreview.net/pdf?id=T2Oihh7zN8">[Paper]</a>
+                  <a href="https://github.com/EternalEvan/VARestorer">[Code]</a>
+                  <a href="https://eternalevan.github.io/VARestorer-proj/">[Project Page]</a>
+                  <p>We distill a visual autoregressive model into a one-step real-world image super-resolution model.</p>
+                </td>
+              </tr>
 
-      a:hover { transform: translateY(-1px); border-color: #7e8ca3; }
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="https://arxiv.org/abs/2506.05934"><img class="wide-figure" src="images/fade.png" alt="FADE video editing pipeline"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="https://arxiv.org/abs/2506.05934"><span class="paper-title">FADE: Frequency-Aware Diffusion Model Factorization for Video Editing</span></a>
+                  <br>
+                  Yixuan Zhu*, Haolin Wang*, <strong>Shilin Ma*</strong>, Wenliang Zhao,
+                  Yansong Tang<sup>&dagger;</sup>, Lei Chen, Jie Zhou<sup>&dagger;</sup>
+                  <br>
+                  <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong class="venue">CVPR</strong>), 2025</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2506.05934">[arXiv]</a>
+                  <a href="https://arxiv.org/pdf/2506.05934">[Paper]</a>
+                  <a href="https://github.com/EternalEvan/FADE">[Code]</a>
+                  <p>We factorize diffusion features by frequency to balance structural consistency and appearance change in video editing.</p>
+                </td>
+              </tr>
 
-      .primary {
-        border-color: #27354d;
-        color: #fff;
-        background: #27354d;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <p class="eyebrow">Research project</p>
-      <h1>SAFE-Pruner</h1>
-      <p class="subtitle">
-        Semantic Attention-Guided Future-Aware Token Pruning for Efficient
-        Vision-Language-Action Manipulation.
-      </p>
-      <div class="actions">
-        <a class="primary" href="./SAFE-Pruner/">View project page</a>
-        <a href="https://github.com/msssl/SAFE-Pruner">Code</a>
-      </div>
-    </main>
-  </body>
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="https://duryi.github.io/UA-NWM-Project-Page/"><img src="images/ua-nwm.png" alt="UA-NWM training and inference pipeline"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="https://arxiv.org/abs/2608.05597"><span class="paper-title">Uncertainty-Aware World Model for Aerial Image-Goal Navigation</span></a>
+                  <br>
+                  Deyi Zhu, Haoyu Fan, Yinan Zhu, Weichen Zhang, <strong>Shilin Ma</strong>,
+                  Xinlei Chen, Yansong Tang
+                  <br>
+                  <em>Preprint, 2026</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2608.05597">[arXiv]</a>
+                  <a href="https://arxiv.org/pdf/2608.05597">[Paper]</a>
+                  <a href="https://duryi.github.io/UA-NWM-Project-Page/">[Project Page]</a>
+                  <p>We formulate trajectory scoring as conditional out-of-distribution detection for robust aerial navigation under future-state uncertainty.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="https://trilarflagz.github.io/AdaThinkV/"><img class="wide-figure" src="images/adathinkv.png" alt="AdaThinkV training and inference pipeline"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="https://arxiv.org/abs/2608.01980"><span class="paper-title">AdaThinkV: Adaptive Thinking for Token-Efficient Video Reasoning</span></a>
+                  <br>
+                  Jingqi Tian*, Haoji Zhang*, Lin Chen*, Hongbo Jin, Haonan Xu, Tianrui Zhu,
+                  Xingming Shui, <strong>Shilin Ma</strong>, Wenjing Yang, Yansong Tang<sup>&dagger;</sup>
+                  <br>
+                  <em>Preprint, 2026</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2608.01980">[arXiv]</a>
+                  <a href="https://arxiv.org/pdf/2608.01980">[Paper]</a>
+                  <a href="https://github.com/Trilarflagz/AdatokenV">[Code]</a>
+                  <a href="https://trilarflagz.github.io/AdaThinkV/">[Project Page]</a>
+                  <p>We propose an adaptive video-reasoning framework that learns when explicit reasoning is worth its generation cost.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="entry-image publication-image">
+                  <a href="https://arxiv.org/abs/2606.04349"><img src="images/morphoquant.png" alt="MorphoQuant pipeline"></a>
+                </td>
+                <td class="entry-content publication-content">
+                  <a href="https://arxiv.org/abs/2606.04349"><span class="paper-title">MorphoQuant: Modality-Aware Quantization for Omni-modal Large Language Models</span></a>
+                  <br>
+                  Yue Wu, Changyuan Wang, Zixuan Wang, <strong>Shilin Ma</strong>, Yansong Tang
+                  <br>
+                  <em>Preprint, 2026</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2606.04349">[arXiv]</a>
+                  <a href="https://arxiv.org/pdf/2606.04349">[Paper]</a>
+                  <p>We develop a modality-aware post-training quantization framework that preserves cross-modal structure at 4-bit precision.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <footer>
+            <p>Website template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a>.</p>
+          </footer>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
 </html>
